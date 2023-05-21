@@ -1,6 +1,8 @@
-# MovieApp
+# MvcMovie
 
-Requirements
+## My comment: Remember to build and/or run app from MvcMovie folder (no MovieApp folder) and add SQLite as your extension to VS Code.
+
+# Requirements
 
 1. Tech stack: dotnet core (mine include MVC, SQLite, VS Code)
 2. Domain
@@ -31,13 +33,13 @@ a) Create movie catalog containning:
 ![moviefromgivengenre](https://github.com/maggy98/MovieApp/assets/62389300/7db65588-6ea8-4d81-84f7-6ca4bcf2218f)
 
 
-I decide to keep functions with help me to operating the catalog (Delete, Edit, Details) since it is created automatically by 'dotnet aspnet-codegenerator' command.
+I decide to keep functions which  help me to operating the catalog (Delete, Edit, Details) since it is created automatically by 'dotnet aspnet-codegenerator' command.
 
 3. Additional requirements:
 
 a) Logging HTTP requests to the console
 
-Some exemple
+Some exemple:
 
 <img width="536" alt="consolelog2" src="https://github.com/maggy98/MovieApp/assets/62389300/4e807896-132f-43e8-9cb9-a42394a12fbd">
 
@@ -50,9 +52,5 @@ b) Code is compiling without warnings (the 'dotnet build' command)
 
 c) Code is running (the 'dotnet run' command)
 
-
 <img width="387" alt="dotnetrun" src="https://github.com/maggy98/MovieApp/assets/62389300/4462ee34-bb16-4a67-8a76-eb14ba570573">
 
-
-# My comment:
-Remember to build or run app from MvcMovie folder (no MovieApp folder) and add SQLite as your extension to VS Code
